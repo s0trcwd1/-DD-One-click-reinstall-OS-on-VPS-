@@ -88,13 +88,24 @@
 
 ```bash
 apt install screen -y
+
 screen
+
 mkdir -p /data/temp
+
 cd /data/temp
+
 apt install wget curl -y
 
 curl -O https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh || wget -O ${_##*/} $_
 ```
+
+bash reinstall.sh debian 12
+
+reboot
+
+用户名 root 默认密码 123@@@
+
 
 国内服务器：
 
