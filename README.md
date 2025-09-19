@@ -87,6 +87,12 @@
 国外服务器：
 
 ```bash
+apt install screen -y
+screen
+mkdir -p /data/temp
+cd /data/temp
+apt install wget curl -y
+
 curl -O https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh || wget -O ${_##*/} $_
 ```
 
