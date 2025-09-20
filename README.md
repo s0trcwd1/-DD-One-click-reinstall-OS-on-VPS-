@@ -97,6 +97,8 @@ cd /data/temp
 
 apt install wget curl -y
 
+rm -rf reinstall.sh
+
 curl -O https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh || wget -O ${_##*/} $_
 ```
 
